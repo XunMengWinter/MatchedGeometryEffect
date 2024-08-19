@@ -7,8 +7,11 @@
 
 import Foundation
 
-struct CardItem{
-    let imageUrl: String
+struct Game: Identifiable{
+    var id: String {
+        return title
+    }
+    let cover: String
     let title: String
     let summary: String
 }

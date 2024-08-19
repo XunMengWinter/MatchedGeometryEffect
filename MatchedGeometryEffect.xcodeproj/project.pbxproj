@@ -11,6 +11,9 @@
 		580FE8932C736D3B00A12C05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580FE8922C736D3B00A12C05 /* ContentView.swift */; };
 		580FE8952C736D3C00A12C05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 580FE8942C736D3C00A12C05 /* Assets.xcassets */; };
 		580FE8982C736D3C00A12C05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 580FE8972C736D3C00A12C05 /* Preview Assets.xcassets */; };
+		580FE89F2C736D7E00A12C05 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580FE89E2C736D7E00A12C05 /* Game.swift */; };
+		580FE8A12C73743000A12C05 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580FE8A02C73743000A12C05 /* GameView.swift */; };
+		580FE8A32C73758E00A12C05 /* GameViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580FE8A22C73758E00A12C05 /* GameViewModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		580FE8922C736D3B00A12C05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		580FE8942C736D3C00A12C05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		580FE8972C736D3C00A12C05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		580FE89E2C736D7E00A12C05 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		580FE8A02C73743000A12C05 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		580FE8A22C73758E00A12C05 /* GameViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 				580FE8902C736D3B00A12C05 /* MatchedGeometryEffectApp.swift */,
 				580FE8922C736D3B00A12C05 /* ContentView.swift */,
 				580FE8942C736D3C00A12C05 /* Assets.xcassets */,
+				580FE89E2C736D7E00A12C05 /* Game.swift */,
+				580FE8A02C73743000A12C05 /* GameView.swift */,
+				580FE8A22C73758E00A12C05 /* GameViewModifier.swift */,
 				580FE8962C736D3C00A12C05 /* Preview Content */,
 			);
 			path = MatchedGeometryEffect;
@@ -139,6 +148,9 @@
 			files = (
 				580FE8932C736D3B00A12C05 /* ContentView.swift in Sources */,
 				580FE8912C736D3B00A12C05 /* MatchedGeometryEffectApp.swift in Sources */,
+				580FE8A12C73743000A12C05 /* GameView.swift in Sources */,
+				580FE8A32C73758E00A12C05 /* GameViewModifier.swift in Sources */,
+				580FE89F2C736D7E00A12C05 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
