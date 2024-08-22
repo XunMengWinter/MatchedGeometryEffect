@@ -33,7 +33,7 @@ struct GameView: View {
                             .foregroundStyle(.white)
                             .padding()
                     }
-                        .matchedGeometryEffect(id: game.title, in: animationNs)
+                    .matchedGeometryEffect(id: game.title, in: animationNs)
                     Text(game.summary)
                         .padding()
                 }

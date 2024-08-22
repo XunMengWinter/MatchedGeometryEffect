@@ -57,6 +57,7 @@ struct ContentView: View {
             .navigationTitle("Game")
             .game(bindable: $selectedGame, destination:{ game in
                 GameView(isPresent: $selectedGame.toBoolBinding, game: game, animationNs: animationNs)
+
             })
             .toolbar(selectedGame == nil ? .visible : .hidden, for: .navigationBar)
         }
